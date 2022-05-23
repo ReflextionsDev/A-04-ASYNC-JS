@@ -10,7 +10,7 @@ var fetchData = () => new Promise((resolve, reject) => {
         } catch(error) {
           reject(error);
         }
-  }, 5000);
+  }, 1000);
 });
 
 
